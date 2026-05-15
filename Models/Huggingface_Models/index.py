@@ -6,8 +6,9 @@ load_dotenv()
 # 1. deepseek-ai/DeepSeek-V3
 # 2. mistralai/Mistral-7B-Instruct-v0.3
 
+
 llm = HuggingFaceEndpoint(
-    repo_id = "Qwen/Qwen2.5-7B-Instruct",
+    repo_id = "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
     temperature = 0.5,
     task = "text-generation",
 )
