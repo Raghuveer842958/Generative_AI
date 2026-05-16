@@ -1,6 +1,6 @@
 from langchain_huggingface import ChatHuggingFace, HuggingFaceEndpoint
 from dotenv import load_dotenv
-from langchain_core.prompts import PromptTemplate, load_prompt
+from langchain_core.prompts import PromptTemplate, ChatPromptTemplate, load_prompt
 from langchain_core.messages import HumanMessage, SystemMessage, AIMessage
 
 load_dotenv()
